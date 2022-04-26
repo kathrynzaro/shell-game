@@ -28,7 +28,7 @@ button1.addEventListener('click', () => {
         losses++;
     } else {
         shell3.classList.add('reveal');
-        losses++
+        losses++;
     }
 
     winSpan.textContent = wins;
@@ -50,7 +50,7 @@ button2.addEventListener('click', () => {
         wins++;
     } else {
         shell3.classList.add('reveal');
-        losses++
+        losses++;
     }
 
     winSpan.textContent = wins;
@@ -72,7 +72,7 @@ button3.addEventListener('click', () => {
         losses++;
     } else {
         shell3.classList.add('reveal');
-        wins++
+        wins++;
     }
 
     winSpan.textContent = wins;
