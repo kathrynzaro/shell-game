@@ -81,13 +81,9 @@ button3.addEventListener('click', () => {
 });
 
 resetButton.addEventListener('click', () => {
-  winSpan.textContent = 0;
-  lossSpan.textContent = 0;
-  totalSpan.textContent = 0;
-
-  shell1.classList.remove('reveal');
-  shell2.classList.remove('reveal');
-  shell3.classList.remove('reveal');
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
 });
 
 
