@@ -15,12 +15,12 @@
 }
 
 .shell.reveal img {
-    transform: translateY(-60px);
+    transform: translateY(-75px);
 }
 
 .shell img {
     width: 100%;
-    transition: transform 1s;
+    transition: transform .5s;
     z-index: 20;
     background-color: white;
 }
