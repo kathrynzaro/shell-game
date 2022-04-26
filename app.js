@@ -1,4 +1,3 @@
-// import functions and grab DOM elements
 const button1 = document.getElementById('shell-1-button');
 const button2 = document.getElementById('shell-2-button');
 const button3 = document.getElementById('shell-3-button');
@@ -12,11 +11,8 @@ const winSpan = document.getElementById('wins');
 const lossSpan = document.getElementById('losses');
 const totalSpan = document.getElementById('total');
 
-// let state
 let wins = 0;
 let losses = 0;
-
-// set event listeners 
 
 button1.addEventListener('click', () => {
     shell1.classList.remove('reveal');
@@ -38,7 +34,6 @@ button1.addEventListener('click', () => {
     winSpan.textContent = wins;
     lossSpan.textContent = losses;
     totalSpan.textContent = wins + losses;
-
 });
 
 button2.addEventListener('click', () => {
@@ -61,9 +56,7 @@ button2.addEventListener('click', () => {
     winSpan.textContent = wins;
     lossSpan.textContent = losses;
     totalSpan.textContent = wins + losses;
-
 });
-
 
 button3.addEventListener('click', () => {
     shell1.classList.remove('reveal');
@@ -85,7 +78,6 @@ button3.addEventListener('click', () => {
     winSpan.textContent = wins;
     lossSpan.textContent = losses;
     totalSpan.textContent = wins + losses;
-
 });
 
 resetButton.addEventListener('click', () => {
