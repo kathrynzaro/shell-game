@@ -27,7 +27,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     background-color: var(--color2);
 }
 
@@ -48,7 +48,7 @@ section {
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
+    margin-top: 100px;
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
 }
